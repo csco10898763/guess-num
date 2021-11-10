@@ -5,11 +5,11 @@
 
 import random
 count = 0 
-x = 0
-y = 0
-x = int(input('請輸入起始數字：'))
-y = int(input('請輸入結束數字：'))   
-r = random.randint(x, y)
+start = 0
+end = 0
+start = int(input('請輸入起始數字：'))
+end = int(input('請輸入結束數字：'))   
+r = random.randint(start, end)
 
 while True:
     count += 1 # count = count + 1
